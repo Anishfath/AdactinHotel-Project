@@ -5,7 +5,9 @@
     <classes>
       <class name="Tests.BookingTest">
         <methods>
-          <include name="testBooking"/>
+          <include name="testBooking" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- Tests.BookingTest -->
     </classes>

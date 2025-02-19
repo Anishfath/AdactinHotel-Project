@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeMethod;
 import Pages.LoginPage;
 import Pages.SearchHotelPage;
 
-public class BaseClass {
+public class BaseTest {
 
     protected WebDriver driver;
 
